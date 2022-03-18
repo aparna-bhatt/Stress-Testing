@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Grotesk:wght@300&family=Stylish&family=Ubuntu:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+}
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  background: #222831;
+}
+.leftdiv {
+  flex-basis: 70%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  background: #222831;
+  /* justify-content: space-around; */
+}
+/* .rightdiv {
+  flex-basis: 40%;
+} */
+.heading {
+  /* flex-basis: 10%; */
+  background: #222831;
+  font-family: 'Stylish', sans-serif;
+  color: #ffffff;
+  border-bottom:1px solid #90CAF9;
+  padding: 1rem;
+
+}
+.input {
+  flex-basis: 95%;
+  height: 100%;
+}
+/* .rightdiv */
+
+.rightdiv {
+    flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 1rem;
+  background: #222831;
+}
+.lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: whitesmoke !important;
+  position: relative;
+  top:-10rem;
+}
+.inputText{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+box-sizing: border-box;
+border-radius: 5px;
+
+}
+.btn {
+  width: 100%;
+  position: relative;
+  /* bottom: -97px; */
+  align-self: flex-end;
+  /* position: relative; */
+  /* bottom: -5rem; */
+}
+.btn1{
+  justify-self: flex-start;
+  align-self: flex-end;
+}
